@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (answer2.value) {
       await Swal.fire('Great I\'m gonna cook... you for the night! :D')
     } else {
-      await Swal.fire('We didn\'t well receive your answer, let\'s try again.')
+      await Swal.fire('We didn\'t well received your answer, let\'s try again.')
       const answer3 = await Swal.fire({
         title: "Would you be my Valentine ?",
         showDenyButton: true,
