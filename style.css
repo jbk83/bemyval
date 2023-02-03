@@ -1,0 +1,35 @@
+body {
+    background-color: #8B0000;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-text {
+    color: white;
+    font-size: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slide-left {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+}
+.slide-left p {
+    animation: slide-left 10s;
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: 100%;
+        width: 300%; 
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
